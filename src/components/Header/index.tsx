@@ -1,6 +1,6 @@
 import { Container, Logo, BackIcon, BackButton} from "./styles";
 
-import logoImg from "../../../assets/images/icon.png";
+import logo from "../../../assets/images/logo.png";
 
 import { useNavigation } from '@react-navigation/native';
 import { Home } from "@/src/screens/Home";
@@ -37,7 +37,7 @@ export function Header({ showBackButton = false }: Props) {
             }
 
 
-            <Logo source={  logoImg } />
+         
 
 
         </Container>

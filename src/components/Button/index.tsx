@@ -4,19 +4,19 @@ import { Container, Title, ButtonTypeStyleProps } from './styles';
 
 
 type Props = TouchableOpacityProps & {
-    tittle: string;
+    title: string;
     type?: ButtonTypeStyleProps;
 
 }
 
 
-export function Button({ tittle, type = 'PRYMARY', ...rest }: Props) {
+export function Button({ title, type = 'PRYMARY', ...rest }: Props) {
     return (
         <Container  
         type={type}
         {...rest}>
             <Title>
-                {tittle}
+                {title}
             </Title>
         </Container>
     )
